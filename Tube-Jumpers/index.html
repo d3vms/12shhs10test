@@ -1,10 +1,10 @@
 <html>
 <head>
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>
-    <script src="TemplateData/UnityLoader.js"></script>
+    <link rel="stylesheet" href="https://ubg100.github.io/style.css">
+    <script src="https://ubg100.github.io/UnityProgress.js"></script>
+    <script src="https://ubg100.github.io/unityloader41.js"></script>
     <script>
-        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/tube_jumpers.json", { onProgress: UnityProgress, Module: { onRuntimeInitialized: function() { UnityProgress(gameInstance, "complete") } } });
+        var gameInstance = UnityLoader.instantiate("gameContainer", "https://ubg100.github.io/games/tube-jumpers/tube-jumpers.json", { onProgress: UnityProgress, Module: { onRuntimeInitialized: function() { UnityProgress(gameInstance, "complete") } } });
     </script>
 </head>
 <body style="margin: 0; overflow: hidden;">
