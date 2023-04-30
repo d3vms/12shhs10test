@@ -27,8 +27,6 @@ document.addEventListener('DOMContentLoaded', function(){
   var t = [7000, 100000];
   show();
 
-  document.querySelector('.imgb').classList.add('imgb_vis');
-
   function addStyle(styles) {
     var css = document.createElement('style');
     css.type = 'text/css';
